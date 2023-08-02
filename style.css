@@ -30,6 +30,11 @@
     justify-content: space-between;
 }
 
+.axe {
+    
+
+}
+
 .navigation {
     display: flex;
     justify-content: flex-end;
@@ -57,6 +62,10 @@ h1 {
     margin-bottom: 0;
 }
 
+.title {
+    display: flex;
+}
+
 .subtitle {
     margin-top: 8px;
 }
@@ -68,8 +77,6 @@ h1 {
     height: 49px;
     width: 377px;
 }
-
-
 
 h1 {
     font-size: 22px;
@@ -84,10 +91,6 @@ h1 {
     background: var(--white, #FFF);
     font-weight: 700;
     font-size: 18px;
-    
-    
-
-
 }
 
 .searchbtn {
@@ -101,7 +104,7 @@ h1 {
     border: 1px solid var(--blue, #0065FC);
     background: var(--blue, #0065FC);
     font-weight: 700;
-    font-size: 21px;
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -120,10 +123,7 @@ h1 {
 
 .fa-location-dot {
     color: black;
-
-
 }
-
 
 .sectionfiltres {
     display: flex;
@@ -142,10 +142,9 @@ h1 {
     align-items: center;
     border-radius: 25px;
     border: 2px solid var(--grey-tint-2, #D9D9D9);
-    background-color:white ;
+    background-color: white;
     justify-content: space-evenly;
-    
-    
+
 }
 
 .btnfiltre2 {
@@ -156,7 +155,7 @@ h1 {
     align-items: center;
     border-radius: 25px;
     border: 2px solid var(--grey-tint-2, #D9D9D9);
-    background-color: white; 
+    background-color: white;
     justify-content: space-evenly;
 
 }
@@ -169,7 +168,7 @@ h1 {
     align-items: center;
     border-radius: 25px;
     border: 2px solid var(--grey-tint-2, #D9D9D9);
-    background-color: white;   
+    background-color: white;
     justify-content: space-evenly;
 }
 
@@ -186,25 +185,24 @@ h1 {
 
 }
 
-.fa-money-bill-wave  {
+.fa-money-bill-wave {
     font-size: 20px;
 }
+
 .fa-person {
     font-size: 20px;
 }
+
 .fa-heart {
     font-size: 20px;
 }
+
 .fa-fire {
     font-size: 20px;
 }
 
-
-
-
-
 .texte-filtres {
-    font-size: 17px;    
+    font-size: 17px;
 }
 
 .filtres {
@@ -231,10 +229,7 @@ h1 {
     width: 24px;
     border-radius: 25px;
     border: 1px solid var(--grey-tint-2, #D9D9D9);
-
 }
- 
-
 
 /*Main */
 
@@ -276,10 +271,6 @@ body {
     font-weight: 700;
 }
 
-
-
-
-
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -287,9 +278,6 @@ body {
     gap: 50px;
     width: 1340px;
     height: 611.5px;
-    
-    
-
 }
 
 .hebergements-and-populaires section {
@@ -299,7 +287,7 @@ body {
     box-sizing: border-box;
     width: 871px;
     height: 650px;
-    
+
 }
 
 /****** Hebergements ***********/
@@ -308,7 +296,7 @@ body {
     flex-direction: column;
     margin-bottom: 4%;
     width: 871px;
-    
+
 
 }
 
@@ -320,7 +308,7 @@ body {
 
 .cardmarseille {
     background-color: white;
-    border-radius: 20px; 
+    border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 250px;
     height: 207.25px;
@@ -334,19 +322,13 @@ body {
     border-radius: 15px 10px 0px 0px;
 }
 
-
-
 .hebergement-cards {
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     box-sizing: border-box;
     gap: 30px;
-
-
-
 }
 
 .hebergement-cards .card-title {
@@ -367,15 +349,16 @@ body {
 }
 
 .colonne-hebergement {
-    display: flex;  
+    display: flex;
     flex-direction: column;
-    
+
 }
 
 .afficherplus {
     padding-top: 5px;
     font-size: 18px;
 }
+
 /****** Populaires ***********/
 
 .populaires {
@@ -422,8 +405,6 @@ body {
     margin-bottom: 5px;
 }
 
-
-
 /*Section Activités */
 
 .section-marseille {
@@ -431,14 +412,12 @@ body {
     margin-top: 100px;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .titre-marseille {
-    display: flex;   
-    padding-left: 30px   
-   
-    
+    display: flex;
+    padding-left: 30px
 }
 
 
@@ -495,7 +474,6 @@ body {
     background: var(--grey, #F2F2F2);
     justify-content: space-between;
     padding: 10px;
-    
     padding-right: 350px;
 }
 
@@ -552,6 +530,42 @@ body {
 
     /* ... */
     .header {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+
+    .logo {
+        width: 61px;
+        height: 19px;
+        padding-bottom: 10px;
+    }
+
+    .navigation {
+        padding-right: 18px;
+        
+    }
+     
+    .axe {
+        
+    }
+
+    .title {
+        width: 335px;
+        height: 52px;
+        padding-right: 50px;
+    }
+
+    .subtitle {
+        width: 335px;
+        height: 19px;
+    }
+
+    .sectionrecherche {
+        width: 335px;
+        height: 49px;
+    }
+
+
+
 }
