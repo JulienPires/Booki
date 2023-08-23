@@ -31,8 +31,6 @@
 }
 
 
-.loupe {}
-
 .navigation {
     display: flex;
     justify-content: flex-end;
@@ -119,6 +117,10 @@ h1 {
 
 }
 
+.fa-magnifying-glass {
+    display: none;
+}
+
 .fa-location-dot {
     color: black;
 }
@@ -137,11 +139,10 @@ h1 {
     gap: 15px;
 }
 
-.btnfiltre1 {
+.btnfiltre {
     display: flex;
     height: 50px;
-    width: 173px;
-    padding: 19px 4px;
+    padding: 4px 19px;
     align-items: center;
     border-radius: 25px;
     border: 2px solid var(--grey-tint-2, #D9D9D9);
@@ -149,43 +150,11 @@ h1 {
     justify-content: space-evenly;
 
 }
-
-.btnfiltre2 {
-    display: flex;
-    height: 50px;
-    width: 134px;
-    padding: 19px 4px;
-    align-items: center;
-    border-radius: 25px;
-    border: 2px solid var(--grey-tint-2, #D9D9D9);
-    background-color: white;
-    justify-content: space-evenly;
-
+.btnfiltre i {
+    margin-right: 10px;
 }
-
-.btnfiltre3 {
-    display: flex;
-    height: 50px;
-    width: 167px;
-    padding: 19px 4px;
-    align-items: center;
-    border-radius: 25px;
-    border: 2px solid var(--grey-tint-2, #D9D9D9);
-    background-color: white;
-    justify-content: space-evenly;
-}
-
-.btnfiltre4 {
-    display: flex;
-    height: 50px;
-    width: 173px;
-    padding: 19px 4px;
-    align-items: center;
-    border-radius: 25px;
-    border: 2px solid var(--grey-tint-2, #D9D9D9);
-    background-color: white;
-    justify-content: space-evenly;
-
+.texte-filtres strong {
+    white-space: nowrap;
 }
 
 .fa-money-bill-wave {
@@ -340,6 +309,7 @@ body {
     justify-content: space-around;
     box-sizing: border-box;
     gap: 30px;
+    padding-top: 15px;
 }
 
 .hebergement-cards .card-title {
@@ -423,6 +393,7 @@ body {
     margin-top: 100px;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 
 }
 
@@ -441,11 +412,12 @@ body {
     gap: 30px;
     margin-bottom: 5%;
     padding-top: 3%;
+    width: 100%;
 }
 
 .photomarseille {
     height: 100%;
-    width: 297.5px;
+    width: 100%;
     flex-shrink: 0;
     align-self: stretch;
     border-radius: 20pxS;
@@ -457,7 +429,7 @@ body {
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     border-radius: 20px;
     display: flex;
-    width: 298px;
+    width: 100%;
     height: 380px;
     flex-direction: column;
     justify-content: flex-end;
@@ -469,7 +441,7 @@ body {
     display: flex;
     padding-left: 19px;
     height: 59px;
-    width: 297.5px;
+    width: 100%;
 }
 
 .txt-legende {
@@ -509,12 +481,12 @@ body {
     .hebergements-and-populaires {
         flex-direction: column;
         height: unset;
-        width: 924px;
-        
-       
-        
-        
-        
+        width: 100%;
+
+
+
+
+
     }
 
     .logo {
@@ -525,11 +497,11 @@ body {
     .navigation {
         width: 344px;
         height: 35px;
-        
+
     }
 
     .sectionfiltres {
-        max-width: 200px;
+        width: 100%;
         flex-wrap: wrap;
 
     }
@@ -548,16 +520,17 @@ body {
     }
 
     .hebergements {
-        width: 924px !important;  
+        width: 100% !important;
         margin: 0;
         padding: 30px 30px 0px 30px !important;
         height: 611.5px !important;
-        
+
     }
 
     .hebergement-cards {
         gap: 30px;
         padding-top: 15px;
+        width: 100% !important;
     }
 
     .afficherplus {
@@ -566,31 +539,46 @@ body {
     }
 
     .populaires {
-        width: 924px !important;
+
         height: 252px !important;
-        
-        
+        width: 100% !important;
+
+
     }
 
     .card {
         margin: 0 !important;
-        width: 274px !important;
+        width: 100% !important;
         height: 142px !important;
         padding: 5px 5px 0px 5px;
-        
+
 
     }
 
-   
+    .colonne-hebergement {
+        width: 100%;
+    }
+
+    .cardmarseille {
+        width: 100% !important;
+        padding-right: 5px;
+    }
+
+    .cardmarseille img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+
 
     .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap: 20px;
-        
 
-        
+
+
     }
 
     .populaires-cards .card {
@@ -605,36 +593,44 @@ body {
         font-size: 14px;
     }
 
-    
-        
-    
+
+
+
     .activitesmarseille {
         height: unset;
-        
+        width: 100%;
+
     }
 
     .section-marseille {
         margin-top: 35px;
+        width: 100%;
     }
 
     .cardactivites {
-        width: 193.5px;
-        height:270px ;
+        width: 100%;
+        height: 270px;
         margin: 0;
     }
 
     .photomarseille {
-        width: 193px;
+        width: 100%;
         height: 200px;
         padding-bottom: 11px;
         padding-right: 2px;
+        object-fit: cover;
     }
 
     .legende {
-       width: 193px;
-       padding-bottom: 10px;
-        
+        width: 100%;
+        padding-bottom: 10px;
+
     }
+
+    .txt-legende {
+        width: 90%;
+    }
+
 
     .titre-marseille {
         padding-top: 10px;
@@ -646,6 +642,11 @@ body {
         justify-content: space-evenly;
         gap: 100px;
         height: 163px !important;
+        width: 85%;
+    }
+
+    .footersection {
+        width: 100%;
     }
 }
 
@@ -668,108 +669,142 @@ body {
         width: 61px;
         height: 19px;
         padding-bottom: 10px;
+        padding-left: 35px;
     }
 
     .navigation {
-        padding-right: 85px;
-        padding-bottom: 30px;
 
+        padding-bottom: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navigation a:hover {
+        display: flex;
+        border-bottom: 2px solid var(--main-color);
+        color: #0065FC;
+        padding-bottom: 40px;
+        border-top: unset;
 
     }
 
     .navigation a {}
 
-    .navigation a:hover {
-        border-top: 2px solid var(--main-color);
-        color: #0065FC;
-
-    }
-
     .title {
-        width: 335px;
+        width: 100%;
         height: 52px;
         padding-left: 20px;
+        justify-content: center;
 
     }
 
     .subtitle {
-        width: 335px;
+        width: 100%;
         height: 19px;
-        padding-left: 20px;
+        justify-content: center;
+        display: flex;
+
+
+
     }
 
     .sectionrecherche {
-        width: 335px;
+        width: 100%;
         height: 49px;
         padding-left: 20px;
+        justify-content: center;
     }
 
-    .searchbtn {}
+    .searchbar {
+        width: 110%;
+        padding-right: 250px;
+
+    }
+
+    .searchbtn {
+        width: 49px;
+        border-radius: 15px;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+        margin-right: 50px;
+
+
+
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+        padding-left: 5px;
+    }
 
     .sectionfiltres {
-        width: 335px;
+        width: 100%;
         height: 161px;
         padding-left: 20px;
         margin: 0;
         padding-top: 20px;
 
 
+
     }
 
-    .filtres {}
+    .filtres {
+        display: flex;
+
+
+
+
+
+
+    }
 
     .btns-filtres {
         display: grid;
-        grid-template-columns: 162px 50px;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+
+        width: 100%;
+
+
+        gap: 20px;
+
     }
 
-    .btnfiltre1 {
-        width: 162px;
+    .btnfiltre {
+        width: 100%;
         height: 50px;
         font-size: 14px;
 
     }
 
-    .btnfiltre2 {
-        width: 162px;
-        height: 50px;
-        font-size: 14px;
+   
+
+    .info {
+        justify-content: center;
     }
 
-    .btnfiltre3 {
-        width: 162px;
-        height: 50px;
-        font-size: 14px;
-    }
-
-    .btnfiltre4 {
-        width: 162px;
-        height: 50px;
-        font-size: 14px;
+    .fa-chart-line {
+        padding-left: 70%;
     }
 
     .hebergements-and-populaires {
         height: unset;
         flex-direction: column-reverse;
-        width: 375px;
-
-
-
-
+        width: 100% !important;
+        padding-bottom: 20px;
+        justify-content: center;
 
     }
 
     .info {
         padding-left: 20px;
+        margin-top: 0;
     }
 
     .fa-chart-line {
-        padding-right:565px;
+        padding-right: 565px;
     }
 
     .card {
-        width: 335px !important;
+        width: 100% !important;
         padding: 5px 5px 5px 5px;
         margin: 10px !important;
 
@@ -780,23 +815,25 @@ body {
         height: unset !important;
         background-color: white !important;
         padding: 0px 20px 0px 0px !important;
+        width: 100%;
+        justify-content: center;
 
     }
 
     .hebergement-cards {
-        padding: 0
+        padding: 0;
+        width: 100%;
+        justify-content: center;
     }
 
     .populaires {
         flex-direction: column;
-        width: 375px;
-        height: 589px !important;
+        width: 100% !important;
+        height: 609px !important;
         background-color: #F2F2F2 !important;
         border-radius: 0% !important;
         margin: 0;
         padding: 0 !important;
-        
-
 
     }
 
@@ -806,26 +843,28 @@ body {
 
     .populaires-cards {
         flex-direction: column;
-        padding-left: 5px !important;
+        padding-left: 10px !important;
+
         height: 350px;
         gap: 0;
-        
-        
-
-
+        width: 90% !important;
 
     }
 
+    .card-txt {
+        width: 100%;
+    }
+
+
+
     .section-title {
         padding-left: 20px;
-
-
-
     }
 
     .section-title2 {
         padding-top: 20px;
         padding-bottom: 20px;
+
     }
 
     .hebergement-cards {
@@ -844,19 +883,20 @@ body {
     .card-content {}
 
     .cardmarseille {
-        width: 335px !important;
+        width: 95% !important;
         padding: 0;
 
         margin: 0;
     }
 
     .hebergement-cards img {
-        width: 335px;
+        width: 100%;
 
 
     }
 
     .colonne-hebergement {
+
         justify-content: center;
         padding-top: 15px;
         padding-left: 15px;
@@ -874,23 +914,23 @@ body {
 
     }
 
-    .titre-marseille {}
 
     .activitesmarseille {
         padding-left: 20px;
         gap: 35px;
-        height:unset;
+        height: unset;
+        width: 100%;
     }
 
     .cardactivites {
-        width: 315px;
+        width: 90%;
         height: 200px;
         margin: 0;
 
     }
 
     .photomarseille {
-        width: 315px;
+        width: 100%;
         height: 141px;
     }
 
@@ -898,12 +938,13 @@ body {
         margin: 10px 10px 50px 10px;
         height: unset;
     }
+
     .footer {
         height: 461px !important;
         flex-direction: column;
         margin: 0;
-        
-        gap :0
+
+        gap: 0
     }
 
     .footersection {
@@ -911,7 +952,6 @@ body {
         padding-left: 20px;
         width: 264px;
     }
-
 
 
 
