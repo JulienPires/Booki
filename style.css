@@ -80,7 +80,7 @@ h1 {
     display: flex;
     text-align: center;
     height: 49px;
-    width:100%;
+    width: 100%;
     border: 1px solid var(--grey, #F2F2F2);
     background: var(--white, #FFF);
     font-weight: 700;
@@ -101,7 +101,7 @@ h1 {
     font-size: 18px;
     padding: 10px;
     display: none;
-    
+
 }
 
 .searchbtn2 {
@@ -168,12 +168,12 @@ h1 {
     border: 2px solid var(--grey-tint-2, #D9D9D9);
     background-color: white;
     justify-content: space-evenly;
-    
+
 
 }
 
 .btns-filtres :hover {
-    background-color : lightblue;
+    background-color: lightblue;
 }
 
 .btnfiltre i {
@@ -286,7 +286,7 @@ body {
     gap: 50px;
     width: 100%;
     height: 611.5px;
-    
+
 }
 
 .hebergements-and-populaires section {
@@ -296,12 +296,12 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 650px;
-    
+
 
 }
 
 .Amina {
-    object-fit: cover;  
+    object-fit: cover;
 }
 
 .mer {
@@ -314,10 +314,10 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 14%;
-    
-    
 
-    
+
+
+
 
 
 }
@@ -326,7 +326,7 @@ body {
     display: flex;
     width: 100%;
     height: 26px;
-    
+
 }
 
 .cardmarseille {
@@ -337,8 +337,8 @@ body {
     height: 207.25px;
     margin: 16px 0;
     padding: 5px 5px 0px 5px;
-    
-    
+
+
 }
 
 .hebergement-cards img {
@@ -394,7 +394,7 @@ body {
 
 .populaires {
     width: 32% !important;
-    
+
 
 }
 
@@ -565,24 +565,24 @@ body {
 
     .section-title {
         padding-bottom: 20px;
-        
+
     }
 
     .section-title2 {
         padding-bottom: 20px;
-        
+
     }
 
     .hebergements-and-populaires {
         width: 100%;
-        
+
     }
 
     .hebergements {
         width: 100% !important;
         margin: 0;
         padding: 30px 30px 0px 30px !important;
-        height: 611.5px !important; 
+        height: 611.5px !important;
 
     }
 
@@ -591,13 +591,13 @@ body {
         gap: 30px;
         padding-top: 15px;
         width: 100% !important;
-        
+
     }
 
     .afficherplus {
         margin: 0;
         padding-top: 10px;
-        
+
     }
 
     .populaires {
@@ -611,24 +611,24 @@ body {
         width: 100% !important;
         height: 142px !important;
         padding: 5px 5px 0px 5px;
-    
+
     }
 
     .colonne-hebergement {
         width: 100%;
-        
+
     }
 
     .cardmarseille {
         width: 100% !important;
         padding-right: 5px;
-        
+
     }
 
     .cardmarseille img {
         width: 100%;
         object-fit: cover;
-        
+
     }
 
 
@@ -638,21 +638,21 @@ body {
         flex-direction: row;
         justify-content: space-between;
         gap: 20px;
-    
+
     }
 
     .populaires-cards .card {
         width: 30%;
-        
+
     }
 
     .populaires-cards .card-title {
         font-size: 16px;
-        
+
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 14px;   
+        font-size: 14px;
     }
 
 
@@ -702,7 +702,7 @@ body {
         justify-content: space-evenly;
         gap: 100px;
         height: 163px !important;
-        
+
     }
 
     .footersection {
@@ -741,10 +741,10 @@ body {
     }
 
     .navigation a:hover {
-        
+
         border-bottom: 2px solid var(--main-color);
         color: #0065FC;
-        border-top: unset;   
+        border-top: unset;
     }
 
     .navigation a {
@@ -791,7 +791,7 @@ body {
 
     .searchbar {
         width: 120% !important;
-        
+
 
     }
 
@@ -817,7 +817,7 @@ body {
     }
 
     .sectionfiltres {
-        
+
         height: 161px;
         padding-left: 17px;
         margin: 0;
@@ -829,7 +829,7 @@ body {
         display: flex;
         width: 100px;
         justify-content: flex-start;
-        
+
     }
 
     .btns-filtres {
@@ -893,28 +893,35 @@ body {
         padding: 0px 20px 0px 0px !important;
         width: 100%;
         justify-content: center;
-        background-color: blue;   
+        background-color: blue;
 
     }
 
-    .cardmarseille:nth-child(1) { 
+    .colonne-hebergement {
+        display: unset;
+    }
+
+    .cardmarseille:nth-child(1) {
         order: 1;
-        background-color: green;
     }
-    .cardmarseille:nth-child(2) { 
-        order: 4;  
-        background-color: red;
+
+    .cardmarseille:nth-child(2) {
+        order: 4;
     }
-    .cardmarseille:nth-child(3) { 
+
+    .cardmarseille:nth-child(3) {
         order: 6;
     }
+
     .cardmarseille:nth-child(4) {
-        order :2;
+        order: 2;
     }
-    .cardmarseille:nth-child(5) {  
+
+    .cardmarseille:nth-child(5) {
         order: 3;
     }
-    .cardmarseille:nth-child(6) { 
+
+    .cardmarseille:nth-child(6) {
         order: 5;
     }
 
@@ -1003,10 +1010,10 @@ body {
     .cardmarseille {
         width: 95% !important;
         padding: 0;
-        
+
 
         margin: 0;
-        
+
 
     }
 
@@ -1088,7 +1095,16 @@ body {
         padding-bottom: 10px;
     }
 
+    .searchbtn {
+        margin: 0;
+    }
+
+    .searchbar {
+        width: none;
+    }
+
     .btns-filtres {
+
         flex-direction: column;
         width: 90%;
     }
@@ -1102,6 +1118,4 @@ body {
         padding-top: 20px;
     }
 
-       }
-
-    
+}
