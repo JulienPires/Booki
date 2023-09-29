@@ -161,7 +161,7 @@ h1 {
 
 .btnfiltre {
     display: flex;
-    height: 50px;
+    height: 35px;
     padding: 4px 19px;
     align-items: center;
     border-radius: 25px;
@@ -228,6 +228,7 @@ h1 {
     width: 24px;
     border-radius: 25px;
     border: 1px solid var(--grey-tint-2, #D9D9D9);
+    font-size: 12px;
 }
 
 /*Main */
@@ -285,6 +286,7 @@ body {
     gap: 50px;
     width: 100%;
     height: 611.5px;
+    
 }
 
 .hebergements-and-populaires section {
@@ -294,15 +296,28 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 650px;
+    
 
 }
+
+.Amina {
+    object-fit: cover;  
+}
+
+.mer {
+    object-fit: cover;
+}
+
 
 /****** Hebergements ***********/
 .hebergements {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4%;
-    width: 68%;
+    margin-bottom: 14%;
+    
+    
+
+    
 
 
 }
@@ -311,6 +326,7 @@ body {
     display: flex;
     width: 100%;
     height: 26px;
+    
 }
 
 .cardmarseille {
@@ -321,6 +337,8 @@ body {
     height: 207.25px;
     margin: 16px 0;
     padding: 5px 5px 0px 5px;
+    
+    
 }
 
 .hebergement-cards img {
@@ -370,10 +388,13 @@ body {
     font-size: 18px;
 }
 
+
+
 /****** Populaires ***********/
 
 .populaires {
     width: 32% !important;
+    
 
 }
 
@@ -451,9 +472,10 @@ body {
     width: 100%;
     flex-shrink: 0;
     align-self: stretch;
-    border-radius: 20pxS;
+    border-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .cardactivites {
@@ -513,11 +535,6 @@ body {
         flex-direction: column;
         height: unset;
         width: 100%;
-
-
-
-
-
     }
 
     .main-container {
@@ -565,9 +582,7 @@ body {
         width: 100% !important;
         margin: 0;
         padding: 30px 30px 0px 30px !important;
-        height: 611.5px !important;
-        
-        
+        height: 611.5px !important; 
 
     }
 
@@ -589,9 +604,6 @@ body {
 
         height: 252px !important;
         width: 100% !important;
-        
-
-
     }
 
     .card {
@@ -599,9 +611,7 @@ body {
         width: 100% !important;
         height: 142px !important;
         padding: 5px 5px 0px 5px;
-        
-
-
+    
     }
 
     .colonne-hebergement {
@@ -628,10 +638,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         gap: 20px;
-        
-
-
-
+    
     }
 
     .populaires-cards .card {
@@ -645,11 +652,8 @@ body {
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 14px;
-        
+        font-size: 14px;   
     }
-
-
 
 
     .activitesmarseille {
@@ -723,7 +727,7 @@ body {
     }
 
     .logo {
-        width: 61px;
+        width: 15%;
         height: 19px;
         padding-bottom: 10px;
         padding-left: 35px;
@@ -740,11 +744,7 @@ body {
         
         border-bottom: 2px solid var(--main-color);
         color: #0065FC;
-        border-top: unset;
-    
-        
-        
-       
+        border-top: unset;   
     }
 
     .navigation a {
@@ -777,7 +777,7 @@ body {
     }
 
     .sectionrecherche {
-        width: calc(100%-40px);
+        width: 95%;
         height: 49px;
         padding-left: 30px;
         justify-content: flex-start;
@@ -790,16 +790,16 @@ body {
     }
 
     .searchbar {
-        width: 150% !important;
+        width: 120% !important;
         
 
     }
 
     .searchbtn {
-        width: 100%;
+        width: 45px;
         border-radius: 15px;
         box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-        margin: 0 0 0 230%;
+        margin: 0 0 0 50%;
         padding-bottom: 20px;
         display: flex;
 
@@ -822,6 +822,7 @@ body {
         padding-left: 17px;
         margin: 0;
         padding-top: 20px;
+        width: 90%;
     }
 
     .filtres {
@@ -834,13 +835,13 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 0;
-        width: 90%;
-        gap: 20px;
+        width: 80%;
+        gap: 10%;
 
     }
 
     .btnfiltre {
-        width: 100%;
+        width: 90%;
         height: 50px;
         font-size: 14px;
 
@@ -890,6 +891,8 @@ body {
         width: 100%;
         justify-content: center;
         background-color: blue;
+        
+        
 
     }
 
@@ -897,6 +900,7 @@ body {
         padding: 0;
         width: 100%;
         justify-content: center;
+        
 
     }
 
@@ -914,7 +918,7 @@ body {
 
     .populaires-title {
         padding: 0 20px;
-        width: calc(100%-40px);
+        width: 90%;
 
 
     }
@@ -971,9 +975,6 @@ body {
         height: unset;
         flex-direction: column;
         width: calc(100% - 40px) !important;
-
-
-
     }
 
 
@@ -982,8 +983,10 @@ body {
     .cardmarseille {
         width: 95% !important;
         padding: 0;
+        
 
         margin: 0;
+        
 
     }
 
@@ -999,8 +1002,6 @@ body {
         padding-top: 15px;
         padding-left: 15px;
         gap: 15px;
-
-
 
     }
 
@@ -1057,7 +1058,7 @@ body {
         height: unset;
         padding-left: 20px;
 
-        width: 264px;
+        width: 100%;
 
 
     }
