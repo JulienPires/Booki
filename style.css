@@ -173,7 +173,7 @@ h1 {
 }
 
 .btns-filtres :hover {
-    background-color: lightblue;
+    background-color: #DEEBFF;
 }
 
 .btnfiltre i {
@@ -320,6 +320,11 @@ body {
 
 
 
+}
+
+.click {
+    text-decoration: none;
+    color: inherit;
 }
 
 .hebergementtitle {
@@ -472,7 +477,7 @@ body {
     width: 100%;
     flex-shrink: 0;
     align-self: stretch;
-    border-radius: 20px;
+    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -1097,10 +1102,6 @@ body {
 
     .searchbtn {
         margin: 0;
-    }
-
-    .searchbar {
-        width: none;
     }
 
     .btns-filtres {
